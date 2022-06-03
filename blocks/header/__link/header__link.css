@@ -1,0 +1,16 @@
+.header__link {
+  position: relative;
+  display: inline-block;
+  margin: 0 12px 4px 0;
+  color: #fff;
+  text-decoration: none;
+  font: 400 24px/28px 'Inter', 'Arial', sans-serif;
+}
+.header__link:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 567px) {
+  .header__link {
+    font: 400 18px/24px 'Inter', 'Arial', sans-serif;
+  }
+}

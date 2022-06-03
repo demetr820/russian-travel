@@ -1,0 +1,7 @@
+.lead__caption {
+  max-width: 160px;
+  margin: 0;
+  font: 400 10px/14px 'Inter', 'Arial', sans-serif;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}

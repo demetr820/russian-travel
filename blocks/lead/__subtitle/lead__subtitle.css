@@ -1,0 +1,25 @@
+.lead__subtitle {
+  max-width: 640px;
+  margin: 0 0 64px;
+  font: 400 30px/36px 'Inter', 'Arial', sans-serif;
+  text-align: center;
+}
+/* Notebooks */
+@media screen and (min-width: 984px) and (max-width: 1140px) {
+  .lead__subtitle {
+    margin: 0 0 56px;
+  }
+}
+/* Tablets */
+@media screen and (min-width: 568px) and
+(max-width: 983px) {
+
+}
+/* Smartphones */
+@media screen and (max-width: 567px) {
+  .lead__subtitle {
+    min-width: 288px;
+    margin: 0 0 40px;
+    font: 400 16px/20px 'Inter', 'Arial', sans-serif;
+  }
+}

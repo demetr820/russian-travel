@@ -1,0 +1,15 @@
+.lead {
+  padding: 0 48px;
+  background-color: #2a2c2f;
+}
+@media screen and (min-width: 568px) and(max-width: 983px) {
+  .lead {
+    padding: 0;
+  }
+}
+/* Smartphones */
+@media screen and (max-width: 567px) {
+  .lead {
+    padding: 0;
+  }
+}

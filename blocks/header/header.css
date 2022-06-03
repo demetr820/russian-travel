@@ -1,0 +1,23 @@
+.header {
+  padding: 28px 48px 56px;
+  background-color: #2a2c2f;
+}
+/* Notebooks */
+@media screen and (min-width: 984px) and (max-width: 1140px) {
+  .header {
+    padding: 28px 24px 48px;
+  }
+}
+/* Tablets */
+@media screen and (min-width: 568px) and
+(max-width: 983px) {
+  .header {
+    padding: 28px 24px 48px;
+  }
+}
+/* Smartphones */
+@media screen and (max-width: 567px) {
+  .header {
+    padding: 16px 16px 48px;
+  }
+}

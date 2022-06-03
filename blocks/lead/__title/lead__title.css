@@ -1,0 +1,14 @@
+.lead__title {
+  max-width: 720px;
+  margin: 0 0 32px;
+  font: 900 96px/100px 'Inter', 'Arial', sans-serif;
+  text-align: center;
+}
+ /* Smartphones */
+@media screen and (max-width: 567px) {
+  .lead__title {
+    max-width: 288px;
+    margin: 0 0 16px;
+    font: 900 40px/44px 'Inter', 'Arial', sans-serif;
+  }
+}

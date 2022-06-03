@@ -1,0 +1,18 @@
+.intro {
+  padding: 0 48px;
+  color: #fff;
+  background-color: var(--bg-color);
+}
+/* Tablets */
+@media screen and (min-width: 568px) and
+(max-width: 983px) {
+  .intro {
+    padding: 0 24px;
+  }
+}
+/* Smartphones */
+@media screen and (max-width: 567px) {
+  .intro {
+    padding: 0 16px;
+  }
+}

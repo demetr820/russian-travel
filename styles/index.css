@@ -1,0 +1,62 @@
+@import url("../fonts/inter.css");
+@import url("../blocks/page/page.css");
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__container/header__container.css");
+@import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/header/__link/header__link.css");
+@import url("../blocks/header/__link/_active/header__link_active.css");
+@import url("../blocks/lead/lead.css");
+@import url("../blocks/lead/__container/lead__container.css");
+@import url("../blocks/lead/__title/lead__title.css");
+@import url("../blocks/lead/__subtitle/lead__subtitle.css");
+@import url("../blocks/lead/__cover/lead__cover.css");
+@import url("../blocks/lead/__image/lead__image.css");
+@import url("../blocks/lead/__caption/lead__caption.css");
+@import url("../blocks/intro/intro.css");
+@import url("../blocks/intro/__container/intro__container.css");
+@import url("../blocks/intro/__title/intro__title.css");
+@import url("../blocks/intro/__text/intro__text.css");
+@import url("../blocks/intro/__list/intro__list.css");
+
+
+
+
+
+
+
+
+
+.gallery {
+  background-color: #2a2c2f;
+}
+.gallery__container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
+  width: 1184px;
+  margin: 0 auto;
+}
+.gallery img {
+  width: 284px;
+  height: 213px;
+}
+/* Media queries */
+
+/* Notebooks */
+@media screen and (min-width: 984px) and (max-width: 1140px) {
+
+}
+/* Tablets */
+@media screen and (min-width: 568px) and
+(max-width: 983px) {
+
+}
+/* Smartphones */
+@media screen and (max-width: 567px) {
+
+}
+/* >1140px - десктопы. Сюда попадает макет 1280px.
+от 984px до 1140px - ноутбуки. Сюда попадает макет 1024px.
+от 568 до 984px - планшеты. Сюда попадает макет 768px.
+<568px - мобильные устройства. Сюда попадает макет 320px. */

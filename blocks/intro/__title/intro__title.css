@@ -1,0 +1,11 @@
+.intro__title {
+  max-width: 690px;
+  margin: 0 0 40px;
+  font: 900 54px/58px var(--font-family);
+}
+@media screen and (max-width: 567px) {
+  .intro__title {
+    max-width: 288px;
+    font: 900 32px/35px var(--font-family);
+  }
+}
