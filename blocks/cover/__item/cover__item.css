@@ -1,0 +1,30 @@
+.cover__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 740px;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+  box-sizing: border-box;
+  background: url("../images/footer-image.jpg") no-repeat center/cover;
+  z-index: 1;
+}
+.cover__item::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  background-color: #2a2c2f;
+  opacity: .3;
+  transition: opacity .5s;
+  z-index: -1;
+}
+.cover__item:hover::after {
+  opacity: .8;
+}
