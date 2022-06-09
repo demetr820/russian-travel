@@ -7,7 +7,7 @@
   text-align: center;
 }
  /* Smartphones */
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 768px) {
   .lead__title {
     max-width: 288px;
     margin: 0 0 16px;

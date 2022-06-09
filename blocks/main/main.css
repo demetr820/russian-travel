@@ -3,5 +3,10 @@
   flex-direction: column;
   align-items: center;
   gap: 92px;
-  padding: 92px 48px;
+  padding: 92px 0;
+}
+@media screen and (max-width: 567px) {
+  .main {
+    padding: 88px 0;
+  }
 }

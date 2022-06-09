@@ -35,24 +35,19 @@
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
 
 @import url("../blocks/footer/footer.css");
-@import url("../blocks/footer/__container/footer__container.css");
+@import url("../blocks/footer/__nav/footer__nav.css");
 @import url("../blocks/footer/__list/footer__list.css");
 @import url("../blocks/footer/__item/footer__item.css");
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
 
-/* Media queries */
 
-/* Notebooks */
-@media screen and (min-width: 984px) and (max-width: 1140px) {
+@media screen and (max-width: 1140px) {
 
 }
-/* Tablets */
-@media screen and (min-width: 568px) and
-(max-width: 983px) {
+@media screen and (max-width: 983px) {
 
 }
-/* Smartphones */
 @media screen and (max-width: 567px) {
 
 }

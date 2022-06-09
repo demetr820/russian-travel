@@ -1,16 +1,19 @@
 .intro {
   width: 100%;
-  max-width: 984px;
+  padding: 0 148px;
   color: #fff;
+  box-sizing: border-box;
 }
-/* Tablets */
-@media screen and (min-width: 568px) and
-(max-width: 983px) {
+@media screen and (max-width: 1184px) {
+  .intro {
+    padding: 0 48px;
+  }
+}
+@media screen and (max-width: 768px) {
   .intro {
     padding: 0 24px;
   }
 }
-/* Smartphones */
 @media screen and (max-width: 567px) {
   .intro {
     padding: 0 16px;

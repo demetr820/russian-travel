@@ -9,12 +9,11 @@
   color: #fff;
   box-sizing: border-box;
 }
-@media screen and (min-width: 568px) and(max-width: 983px) {
+@media screen and (max-width: 983px) {
   .lead {
     padding: 0;
   }
 }
-/* Smartphones */
 @media screen and (max-width: 567px) {
   .lead {
     padding: 0;

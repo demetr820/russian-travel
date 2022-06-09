@@ -10,7 +10,7 @@
   color: #fff;
   text-decoration: none;
   box-sizing: border-box;
-  background: url("../images/footer-image.jpg") no-repeat center/cover;
+  background: url("../../../images/footer-image.jpg") no-repeat center/cover;
   z-index: 1;
 }
 .cover__item::after {

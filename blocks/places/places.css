@@ -2,6 +2,25 @@
   display: flex;
   flex-direction: column;
   gap: 80px;
-  max-width: 984px;
+  width: 100%;
+  padding: 0 148px;
   color: #fff;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1140px) {
+  .places {
+    padding: 0 48px;
+  }
+}
+@media screen and (max-width: 983px) {
+  .places {
+    gap: 73px;
+    padding: 0 24px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .places {
+    gap: 64px;
+    padding: 0;
+  }
 }

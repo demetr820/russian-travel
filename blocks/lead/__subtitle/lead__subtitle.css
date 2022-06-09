@@ -5,21 +5,17 @@
   line-height: 36px;
   text-align: center;
 }
-/* Notebooks */
 @media screen and (min-width: 984px) and (max-width: 1140px) {
   .lead__subtitle {
     margin: 0 0 56px;
   }
 }
-/* Tablets */
-@media screen and (min-width: 568px) and
-(max-width: 983px) {
+@media screen and (max-width: 983px) {
 
 }
-/* Smartphones */
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 606px) {
   .lead__subtitle {
-    min-width: 288px;
+    max-width: 288px;
     margin: 0 0 40px;
     font-size: 16px;
     line-height: 20px;

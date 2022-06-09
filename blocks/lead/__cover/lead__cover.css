@@ -1,4 +1,11 @@
 .lead__cover {
   width: 100%;
+  max-width: 984px;
+  /* min-height: 615px; */
   margin: 0;
+}
+@media screen and (max-width: 1184px) {
+  .lead__cover {
+    max-height: 580px;
+  }
 }

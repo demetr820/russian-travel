@@ -5,4 +5,18 @@
   font-size: 72px;
   line-height: 76px;
   font-weight: 900;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 983px) {
+  .places__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .places__title {
+    padding: 0 0 0 16px;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }
