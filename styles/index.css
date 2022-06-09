@@ -1,12 +1,10 @@
 @import url("../vendor/fonts/fonts.css");
 @import url("../blocks/page/page.css");
 @import url("../blocks/header/header.css");
-/* @import url("../blocks/header/__container/header__container.css"); */
 @import url("../blocks/header/__logo/header__logo.css");
 @import url("../blocks/header/__link/header__link.css");
 @import url("../blocks/header/__link/_active/header__link_active.css");
 @import url("../blocks/lead/lead.css");
-/* @import url("../blocks/lead/__container/lead__container.css"); */
 @import url("../blocks/lead/__title/lead__title.css");
 @import url("../blocks/lead/__subtitle/lead__subtitle.css");
 @import url("../blocks/lead/__cover/lead__cover.css");
@@ -19,7 +17,6 @@
 @import url("../blocks/intro/__list/intro__list.css");
 @import url("../blocks/gallery/gallery.css");
 @import url("../blocks/gallery/__item/gallery__item.css");
-
 @import url("../blocks/places/places.css");
 @import url("../blocks/places/__item/places__item.css");
 @import url("../blocks/places/__title/places__title.css");
@@ -28,12 +25,10 @@
 @import url("../blocks/places/__url-heading/places__url-heading.css");
 @import url("../blocks/places/__link/places__link.css");
 @import url("../blocks/places/__paragraph/places__paragraph.css");
-
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/cover/__item/cover__item.css");
 @import url("../blocks/cover/__title/cover__title.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
-
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__nav/footer__nav.css");
 @import url("../blocks/footer/__list/footer__list.css");
@@ -42,16 +37,3 @@
 @import url('../blocks/footer/__copyright/footer__copyright.css');
 
 
-@media screen and (max-width: 1140px) {
-
-}
-@media screen and (max-width: 983px) {
-
-}
-@media screen and (max-width: 567px) {
-
-}
-/* >1140px - десктопы. Сюда попадает макет 1280px.
-от 984px до 1140px - ноутбуки. Сюда попадает макет 1024px.
-от 568 до 984px - планшеты. Сюда попадает макет 768px.
-<568px - мобильные устройства. Сюда попадает макет 320px. */
