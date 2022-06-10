@@ -4,8 +4,8 @@
   font-size: 16px;
   line-height: 26px;
 }
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 983px) {
   .intro__text {
-    max-width: 288px;
+    max-width: 100%;
   }
 }

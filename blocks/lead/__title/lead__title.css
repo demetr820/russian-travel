@@ -6,8 +6,7 @@
   font-weight: 900;
   text-align: center;
 }
- /* Smartphones */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 712px) {
   .lead__title {
     max-width: 288px;
     margin: 0 0 16px;

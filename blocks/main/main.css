@@ -1,12 +1,18 @@
 .main {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 92px;
-  padding: 92px 0;
+  padding: 0 0 92px 0;
+}
+@media screen and (max-width: 983px) {
+  .main {
+    gap: 88px;
+    padding: 0 0 88px 0;
+  }
 }
 @media screen and (max-width: 567px) {
   .main {
-    padding: 88px 0;
+    gap: 64px;
+    padding: 0 0 64px 0;
   }
 }
